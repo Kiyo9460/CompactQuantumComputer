@@ -1,0 +1,22 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "cqc.cqc.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "cqc.refmap.json",
+"mixins": [
+    "GridMixin",
+    "MixinAdvCraftingCPUCalculator",
+    "server.TooltipsMixin"
+  ],
+  "client": [
+    "client.FontAccessor",
+    "client.MixinFontWavingText"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}

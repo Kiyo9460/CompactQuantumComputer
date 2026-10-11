@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Specification-Title: cqc
+Specification-Vendor: 
+Specification-Version: 1
+Implementation-Title: cqc
+Implementation-Version: 1.0
+Implementation-Vendor: 
+Implementation-Timestamp: 2026-10-09T02:34:03+0900
+MixinConfigs: cqc.mixins.json
+
