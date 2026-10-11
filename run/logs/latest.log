@@ -1,120 +1,57 @@
-[0910月2026 02:34:18.480] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 5, --assetsDir, C:\Users\KIYO\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.4.20, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
-[0910月2026 02:34:18.485] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.19 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
-[0910月2026 02:34:18.620] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
-[0910月2026 02:34:18.681] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
-[0910月2026 02:34:18.849] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
-[0910月2026 02:34:18.896] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/KIYO/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
-[0910月2026 02:34:18.949] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: NVIDIA GeForce RTX 4070 Ti/PCIe/SSE2 GL version 4.6.0 NVIDIA 617.14, NVIDIA Corporation
-[0910月2026 02:34:19.181] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\KIYO\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.4.20\c354b21002937b393c4f86163a98dccdf1d51e72\javafmllanguage-1.20.1-47.4.20.jar is missing mods.toml file
-[0910月2026 02:34:19.184] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\KIYO\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.4.20\865d75f8c18329ddb31db5856701ab86609108b5\lowcodelanguage-1.20.1-47.4.20.jar is missing mods.toml file
-[0910月2026 02:34:19.186] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\KIYO\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.4.20\af599930362212ae937e392709f49047e6abbbf\mclanguage-1.20.1-47.4.20.jar is missing mods.toml file
-[0910月2026 02:34:19.191] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\KIYO\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.4.20\e8cc697c69f3911e76caa2f005d9486597cd7448\fmlcore-1.20.1-47.4.20.jar is missing mods.toml file
-[0910月2026 02:34:19.372] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: ae2addonlib. Using Mod File: C:\Users\KIYO\.gradle\caches\forge_gradle\deobf_dependencies\io\github\pedroksl\ae2addonlib\1.0.4-1.20.1_mapped_official_1.20.1\ae2addonlib-1.0.4-1.20.1_mapped_official_1.20.1.jar
-[0910月2026 02:34:19.372] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 1 dependencies adding them to mods collection
-[0910月2026 02:34:20.904] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[0910月2026 02:34:20.917] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\KIYO\.gradle\caches\forge_gradle\assets, --assetIndex, 5]
-[0910月2026 02:34:21.255] [main/INFO] [mixin/]: Remapping refMap geckolib.refmap.json using C:\Users\KIYO\Downloads\Compact\build\createSrgToMcp\output.srg
-[0910月2026 02:34:21.266] [main/INFO] [mixin/]: Remapping refMap ae2.mixins.refmap.json using C:\Users\KIYO\Downloads\Compact\build\createSrgToMcp\output.srg
-[0910月2026 02:34:21.280] [main/INFO] [mixin/]: Remapping refMap mixins.aae.refmap.json using C:\Users\KIYO\Downloads\Compact\build\createSrgToMcp\output.srg
-[0910月2026 02:34:21.281] [main/WARN] [mixin/]: Reference map 'cqc.refmap.json' for cqc.mixins.json could not be read. If this is a development environment you can ignore this message
-[0910月2026 02:34:26.897] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 188 Datafixer optimizations took 142 milliseconds
-[0910月2026 02:34:28.295] [pool-4-thread-1/WARN] [AE2:C/]: Unable to find class com.simibubi.create.foundation.ponder.PonderWorld. Integration with PonderJS disabled.
-[0910月2026 02:34:29.104] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/KIYO/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.4.20_mapped_official_1.20.1/forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar%23191!/assets/.mcassetsroot' uses unexpected schema
-[0910月2026 02:34:29.104] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/KIYO/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.4.20_mapped_official_1.20.1/forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar%23191!/data/.mcassetsroot' uses unexpected schema
-[0910月2026 02:34:29.131] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[0910月2026 02:34:29.148] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
-[0910月2026 02:34:29.296] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
-[0910月2026 02:34:29.638] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.20, for MC 1.20.1 with MCP 20230612.114412
-[0910月2026 02:34:29.639] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.20 Initialized
-[0910月2026 02:34:31.794] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: [cqc]
-[0910月2026 02:34:32.091] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources
-[0910月2026 02:34:32.361] [Worker-Main-27/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.0.06.hex, loading
-[0910月2026 02:34:32.439] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[0910月2026 02:34:32.576] [Render thread/INFO] [cqc.cqc.Cqc/]: cqc: compact quantum computer ready
-[0910月2026 02:34:33.287] [Worker-Main-15/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'advanced_ae:block/crafting/quantum_core_formed' referenced from: advanced_ae:quantum_core#formed=true,light_level=0,multiblocked=true,powered=true: java.io.FileNotFoundException: advanced_ae:models/block/crafting/quantum_core_formed.json
-[0910月2026 02:34:33.481] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.4.20 Target: 47.4.26
-[0910月2026 02:34:35.368] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
-[0910月2026 02:34:35.368] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[0910月2026 02:34:35.393] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on スピーカー (Realtek(R) Audio)
-[0910月2026 02:34:35.394] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
-[0910月2026 02:34:35.476] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/blocks.png-atlas
-[0910月2026 02:34:35.485] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
-[0910月2026 02:34:35.486] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[0910月2026 02:34:35.486] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[0910月2026 02:34:35.486] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
-[0910月2026 02:34:35.489] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[0910月2026 02:34:35.490] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
-[0910月2026 02:34:35.491] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[0910月2026 02:34:35.491] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[0910月2026 02:34:35.614] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[0910月2026 02:34:35.663] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
-[0910月2026 02:34:35.664] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[0910月2026 02:34:35.665] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[0910月2026 02:34:35.666] [Render thread/INFO] [guideme.internal.GuideReloadListener/]: Data driven guides: []
-[0910月2026 02:34:35.668] [Render thread/WARN] [guideme.indices.ItemIndex/]: Page advanced_ae:aae_intro/quantum_crafter_terminal.md references an unknown item advanced_ae:wireless_quantum_crafter_terminal in its item_ids frontmatter
-[0910月2026 02:34:35.671] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x0 guideme:textures/atlas/gui.png-atlas
-[0910月2026 02:34:35.870] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: java.lang.RuntimeException: Failed to parse into SignedJWT: 0
-[0910月2026 02:34:59.765] [Render thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this CLIENT instance
-[0910月2026 02:35:00.644] [Render thread/INFO] [AE2:C/]: Scanning class appeng.server.testplots.TestPlots for plots
-[0910月2026 02:35:00.646] [Render thread/INFO] [AE2:C/]: Scanning class appeng.server.testplots.AutoCraftingTestPlots for plots
-[0910月2026 02:35:00.646] [Render thread/INFO] [AE2:C/]: Scanning class appeng.server.testplots.InscriberTestPlots for plots
-[0910月2026 02:35:00.651] [Render thread/INFO] [AE2:C/]: Scanning class appeng.server.testplots.P2PTestPlots for plots
-[0910月2026 02:35:00.651] [Render thread/INFO] [AE2:C/]: Scanning class appeng.server.testplots.ItemP2PTestPlots for plots
-[0910月2026 02:35:00.652] [Render thread/INFO] [AE2:C/]: Scanning class appeng.server.testplots.MemoryCardTestPlots for plots
-[0910月2026 02:35:00.652] [Render thread/INFO] [AE2:C/]: Scanning class appeng.server.testplots.PatternProviderLockModePlots for plots
-[0910月2026 02:35:00.652] [Render thread/INFO] [AE2:C/]: Scanning class appeng.server.testplots.PatternProviderPlots for plots
-[0910月2026 02:35:00.652] [Render thread/INFO] [AE2:C/]: Scanning class appeng.server.testplots.SpatialTestPlots for plots
-[0910月2026 02:35:00.652] [Render thread/INFO] [AE2:C/]: Scanning class appeng.server.testplots.QnbTestPlots for plots
-[0910月2026 02:35:00.652] [Render thread/INFO] [AE2:C/]: Scanning class appeng.server.testplots.GuidebookPlot for plots
-[0910月2026 02:35:00.652] [Render thread/INFO] [AE2:C/]: Scanning class appeng.server.testplots.SubnetPlots for plots
-[0910月2026 02:35:00.653] [Render thread/INFO] [AE2:C/]: Scanning class appeng.server.testplots.ChannelTests for plots
-[0910月2026 02:35:00.653] [Render thread/INFO] [AE2:C/]: Scanning class appeng.server.testplots.AnnihilationPlaneTests for plots
-[0910月2026 02:35:00.715] [Worker-Main-4/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag curios:curio as it is missing following references: advanced_ae:wireless_quantum_crafter_terminal (from AdvancedAE-1.3.6-1.20.1_mapped_official_1.20.1.jar)
-[0910月2026 02:35:00.986] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe advanced_ae:skysteel as it's serializer returned null
-[0910月2026 02:35:01.006] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe advanced_ae:energy_processor_chamber as it's serializer returned null
-[0910月2026 02:35:01.011] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe advanced_ae:accumulation_processor_chamber as it's serializer returned null
-[0910月2026 02:35:01.020] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe advanced_ae:wt_combine_access
-com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'ae2wtlib:combine'
-	at net.minecraft.world.item.crafting.RecipeManager.lambda$fromJson$9(RecipeManager.java:170) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
-	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:169) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:67) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:34) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.lambda$reload$1(SimplePreparableReloadListener.java:12) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
-	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
-	at net.minecraft.server.packs.resources.SimpleReloadInstance.lambda$new$3(SimpleReloadInstance.java:65) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:143) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:22) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:116) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:126) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.loadWorldDataBlocking(WorldOpenFlows.java:163) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.loadWorldStem(WorldOpenFlows.java:113) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.doLoadLevel(WorldOpenFlows.java:181) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.doLoadLevel(WorldOpenFlows.java:169) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.loadLevel(WorldOpenFlows.java:65) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.loadWorld(WorldSelectionList.java:575) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.joinWorld(WorldSelectionList.java:474) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.mouseClicked(WorldSelectionList.java:413) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.client.gui.components.AbstractSelectionList.mouseClicked(AbstractSelectionList.java:298) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.client.gui.components.events.ContainerEventHandler.mouseClicked(ContainerEventHandler.java:39) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.client.MouseHandler.lambda$onPress$0(MouseHandler.java:92) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.client.gui.screens.Screen.wrapScreenError(Screen.java:437) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.client.MouseHandler.onPress(MouseHandler.java:89) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.client.MouseHandler.lambda$setup$4(MouseHandler.java:189) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:90) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.client.MouseHandler.lambda$setup$5(MouseHandler.java:188) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.1.jar:build 7]
-	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar:build 7]
-	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3474) ~[lwjgl-glfw-3.3.1.jar:build 7]
-	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:207) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1173) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:718) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.client.main.Main.main(Main.java:218) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
+[1210月2026 00:20:29.112] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 5, --assetsDir, C:\Users\KIYO\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.4.20, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mixin.config, cqc.mixins.json]
+[1210月2026 00:20:29.116] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.12 by Oracle Corporation; OS Windows 11 arch amd64 version 10.0
+[1210月2026 00:20:29.219] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[1210月2026 00:20:29.286] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[1210月2026 00:20:29.458] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
+[1210月2026 00:20:29.520] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/KIYO/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23141!/ Service=ModLauncher Env=CLIENT
+[1210月2026 00:20:29.561] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: NVIDIA GeForce RTX 4070 Ti/PCIe/SSE2 GL version 4.6.0 NVIDIA 617.14, NVIDIA Corporation
+[1210月2026 00:20:29.904] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\KIYO\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.4.20\c354b21002937b393c4f86163a98dccdf1d51e72\javafmllanguage-1.20.1-47.4.20.jar is missing mods.toml file
+[1210月2026 00:20:29.911] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\KIYO\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.4.20\865d75f8c18329ddb31db5856701ab86609108b5\lowcodelanguage-1.20.1-47.4.20.jar is missing mods.toml file
+[1210月2026 00:20:29.917] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\KIYO\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.4.20\af599930362212ae937e392709f49047e6abbbf\mclanguage-1.20.1-47.4.20.jar is missing mods.toml file
+[1210月2026 00:20:29.922] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\KIYO\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.4.20\e8cc697c69f3911e76caa2f005d9486597cd7448\fmlcore-1.20.1-47.4.20.jar is missing mods.toml file
+[1210月2026 00:20:30.134] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[1210月2026 00:20:30.292] [main/ERROR] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Missing or unsupported mandatory dependencies:
+	Mod ID: 'advanced_ae', Requested by: 'cqc', Expected range: '[1.3.0,)', Actual version: '[MISSING]'
+	Mod ID: 'ae2', Requested by: 'cqc', Expected range: '[15.4.9,)', Actual version: '[MISSING]'
+[1210月2026 00:20:31.700] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[1210月2026 00:20:31.702] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\KIYO\.gradle\caches\forge_gradle\assets, --assetIndex, 5]
+[1210月2026 00:20:31.818] [main/WARN] [mixin/]: Reference map 'cqc.refmap.json' for cqc.mixins.json could not be read. If this is a development environment you can ignore this message
+[1210月2026 00:20:35.951] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 188 Datafixer optimizations took 135 milliseconds
+[1210月2026 00:20:37.737] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/KIYO/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.4.20_mapped_official_1.20.1/forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar%23204!/assets/.mcassetsroot' uses unexpected schema
+[1210月2026 00:20:37.738] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/KIYO/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.4.20_mapped_official_1.20.1/forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar%23204!/data/.mcassetsroot' uses unexpected schema
+[1210月2026 00:20:37.772] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[1210月2026 00:20:37.786] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[1210月2026 00:20:37.913] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
+[1210月2026 00:20:38.181] [Render thread/FATAL] [net.minecraftforge.fml.ModLoader/CORE]: Error during pre-loading phase
+net.minecraftforge.fml.ModLoadingException: Mod §ecqc§r requires §6advanced_ae§r §o1.3.0 or above§r
+§7Currently, §6advanced_ae§r§7 is §o§nnot installed
+	at net.minecraftforge.fml.ModLoadingException.lambda$fromEarlyException$0(ModLoadingException.java:50) ~[fmlcore-1.20.1-47.4.20.jar:?]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?]
+	at java.util.AbstractList$RandomAccessSpliterator.forEachRemaining(AbstractList.java:720) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596) ~[?:?]
+	at java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276) ~[?:?]
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682) ~[?:?]
+	at net.minecraftforge.fml.ModLoader.<init>(ModLoader.java:96) ~[fmlcore-1.20.1-47.4.20.jar:?]
+	at net.minecraftforge.fml.ModLoader.get(ModLoader.java:128) ~[fmlcore-1.20.1-47.4.20.jar:?]
+	at net.minecraftforge.client.loading.ClientModLoader.lambda$begin$1(ClientModLoader.java:66) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
+	at net.minecraftforge.client.loading.ClientModLoader.lambda$createRunnableWithCatch$4(ClientModLoader.java:86) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
+	at net.minecraftforge.client.loading.ClientModLoader.begin(ClientModLoader.java:66) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
+	at net.minecraft.client.Minecraft.<init>(Minecraft.java:459) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:182) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
 	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
 	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.4.20.jar:?]
 	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:99) ~[fmlloader-1.20.1-47.4.20.jar:?]
 	at net.minecraftforge.fml.loading.targets.ForgeClientUserdevLaunchHandler.devService(ForgeClientUserdevLaunchHandler.java:19) ~[fmlloader-1.20.1-47.4.20.jar:?]
@@ -127,848 +64,83 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'ae2wtli
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[0910月2026 02:35:01.069] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe advanced_ae:wireless_quantum_crafter_terminal as it's serializer returned null
-[0910月2026 02:35:01.072] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe advanced_ae:eaeadvpatpro as it's serializer returned null
-[0910月2026 02:35:01.073] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe advanced_ae:wt_combine_encoding
-com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'ae2wtlib:combine'
-	at net.minecraft.world.item.crafting.RecipeManager.lambda$fromJson$9(RecipeManager.java:170) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
-	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:169) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:67) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:34) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.lambda$reload$1(SimplePreparableReloadListener.java:12) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
-	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
-	at net.minecraft.server.packs.resources.SimpleReloadInstance.lambda$new$3(SimpleReloadInstance.java:65) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:143) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:22) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:116) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:126) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.loadWorldDataBlocking(WorldOpenFlows.java:163) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.loadWorldStem(WorldOpenFlows.java:113) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.doLoadLevel(WorldOpenFlows.java:181) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.doLoadLevel(WorldOpenFlows.java:169) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.loadLevel(WorldOpenFlows.java:65) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.loadWorld(WorldSelectionList.java:575) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.joinWorld(WorldSelectionList.java:474) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.mouseClicked(WorldSelectionList.java:413) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.client.gui.components.AbstractSelectionList.mouseClicked(AbstractSelectionList.java:298) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.client.gui.components.events.ContainerEventHandler.mouseClicked(ContainerEventHandler.java:39) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.client.MouseHandler.lambda$onPress$0(MouseHandler.java:92) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.client.gui.screens.Screen.wrapScreenError(Screen.java:437) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.client.MouseHandler.onPress(MouseHandler.java:89) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.client.MouseHandler.lambda$setup$4(MouseHandler.java:189) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:90) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.client.MouseHandler.lambda$setup$5(MouseHandler.java:188) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.1.jar:build 7]
-	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar:build 7]
-	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3474) ~[lwjgl-glfw-3.3.1.jar:build 7]
-	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:207) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1173) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:718) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.client.main.Main.main(Main.java:218) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
-	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
-	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
-	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.4.20.jar:?]
-	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:99) ~[fmlloader-1.20.1-47.4.20.jar:?]
-	at net.minecraftforge.fml.loading.targets.ForgeClientUserdevLaunchHandler.devService(ForgeClientUserdevLaunchHandler.java:19) ~[fmlloader-1.20.1-47.4.20.jar:?]
-	at net.minecraftforge.fml.loading.targets.CommonDevLaunchHandler.lambda$makeService$7(CommonDevLaunchHandler.java:135) ~[fmlloader-1.20.1-47.4.20.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[0910月2026 02:35:01.075] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe advanced_ae:quantum_processor_print_eae as it's serializer returned null
-[0910月2026 02:35:01.076] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe advanced_ae:chargedredstone as it's serializer returned null
-[0910月2026 02:35:01.078] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe advanced_ae:redstonecrystal as it's serializer returned null
-[0910月2026 02:35:01.079] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe advanced_ae:wt_combine_crafting
-com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'ae2wtlib:combine'
-	at net.minecraft.world.item.crafting.RecipeManager.lambda$fromJson$9(RecipeManager.java:170) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
-	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:169) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:67) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:34) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.lambda$reload$1(SimplePreparableReloadListener.java:12) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
-	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
-	at net.minecraft.server.packs.resources.SimpleReloadInstance.lambda$new$3(SimpleReloadInstance.java:65) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:143) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:22) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:116) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:126) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.loadWorldDataBlocking(WorldOpenFlows.java:163) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.loadWorldStem(WorldOpenFlows.java:113) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.doLoadLevel(WorldOpenFlows.java:181) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.doLoadLevel(WorldOpenFlows.java:169) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.loadLevel(WorldOpenFlows.java:65) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.loadWorld(WorldSelectionList.java:575) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.joinWorld(WorldSelectionList.java:474) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.mouseClicked(WorldSelectionList.java:413) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.client.gui.components.AbstractSelectionList.mouseClicked(AbstractSelectionList.java:298) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.client.gui.components.events.ContainerEventHandler.mouseClicked(ContainerEventHandler.java:39) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.client.MouseHandler.lambda$onPress$0(MouseHandler.java:92) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.client.gui.screens.Screen.wrapScreenError(Screen.java:437) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.client.MouseHandler.onPress(MouseHandler.java:89) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.client.MouseHandler.lambda$setup$4(MouseHandler.java:189) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:90) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.client.MouseHandler.lambda$setup$5(MouseHandler.java:188) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.1.jar:build 7]
-	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar:build 7]
-	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3474) ~[lwjgl-glfw-3.3.1.jar:build 7]
-	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:207) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1173) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:718) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.client.main.Main.main(Main.java:218) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
-	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
-	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
-	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.4.20.jar:?]
-	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:99) ~[fmlloader-1.20.1-47.4.20.jar:?]
-	at net.minecraftforge.fml.loading.targets.ForgeClientUserdevLaunchHandler.devService(ForgeClientUserdevLaunchHandler.java:19) ~[fmlloader-1.20.1-47.4.20.jar:?]
-	at net.minecraftforge.fml.loading.targets.CommonDevLaunchHandler.lambda$makeService$7(CommonDevLaunchHandler.java:135) ~[fmlloader-1.20.1-47.4.20.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[0910月2026 02:35:01.080] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe advanced_ae:wt_upgrade_quantum_crafter_terminal
-com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'ae2wtlib:upgrade'
-	at net.minecraft.world.item.crafting.RecipeManager.lambda$fromJson$9(RecipeManager.java:170) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
-	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:169) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:67) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:34) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.lambda$reload$1(SimplePreparableReloadListener.java:12) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
-	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
-	at net.minecraft.server.packs.resources.SimpleReloadInstance.lambda$new$3(SimpleReloadInstance.java:65) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:143) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:22) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:116) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:126) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.loadWorldDataBlocking(WorldOpenFlows.java:163) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.loadWorldStem(WorldOpenFlows.java:113) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.doLoadLevel(WorldOpenFlows.java:181) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.doLoadLevel(WorldOpenFlows.java:169) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.loadLevel(WorldOpenFlows.java:65) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.loadWorld(WorldSelectionList.java:575) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.joinWorld(WorldSelectionList.java:474) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.mouseClicked(WorldSelectionList.java:413) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.client.gui.components.AbstractSelectionList.mouseClicked(AbstractSelectionList.java:298) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.client.gui.components.events.ContainerEventHandler.mouseClicked(ContainerEventHandler.java:39) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.client.MouseHandler.lambda$onPress$0(MouseHandler.java:92) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.client.gui.screens.Screen.wrapScreenError(Screen.java:437) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.client.MouseHandler.onPress(MouseHandler.java:89) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.client.MouseHandler.lambda$setup$4(MouseHandler.java:189) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:90) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.client.MouseHandler.lambda$setup$5(MouseHandler.java:188) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.1.jar:build 7]
-	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar:build 7]
-	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3474) ~[lwjgl-glfw-3.3.1.jar:build 7]
-	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:207) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1173) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:718) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at net.minecraft.client.main.Main.main(Main.java:218) ~[forge-1.20.1-47.4.20_mapped_official_1.20.1-recomp.jar:?]
-	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
-	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
-	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
-	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.4.20.jar:?]
-	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:99) ~[fmlloader-1.20.1-47.4.20.jar:?]
-	at net.minecraftforge.fml.loading.targets.ForgeClientUserdevLaunchHandler.devService(ForgeClientUserdevLaunchHandler.java:19) ~[fmlloader-1.20.1-47.4.20.jar:?]
-	at net.minecraftforge.fml.loading.targets.CommonDevLaunchHandler.lambda$makeService$7(CommonDevLaunchHandler.java:135) ~[fmlloader-1.20.1-47.4.20.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[0910月2026 02:35:01.082] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 13 recipes
-[0910月2026 02:35:01.154] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1744 advancements
-[0910月2026 02:35:01.452] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.20.1
-[0910月2026 02:35:01.452] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[0910月2026 02:35:02.360] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[0910月2026 02:35:03.802] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[0910月2026 02:35:03.819] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[0910月2026 02:35:03.837] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[0910月2026 02:35:03.873] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[0910月2026 02:35:04.377] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 11%
-[0910月2026 02:35:04.687] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[0910月2026 02:35:04.702] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 2339 ms
-[0910月2026 02:35:04.842] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
-[0910月2026 02:35:04.843] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
-[0910月2026 02:35:04.949] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
-[0910月2026 02:35:05.777] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
-[0910月2026 02:35:05.885] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:ee51dc8d] logged in with entity id 252 at (7.939992263146533, 66.0, -4.300000011920929)
-[0910月2026 02:35:05.946] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
-[0910月2026 02:35:06.283] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: ae2:charger/ae2:charger/meteorite_compass
-[0910月2026 02:35:06.285] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: ae2:charger/ae2:charger/charged_certus_quartz_crystal
-[0910月2026 02:35:06.287] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: ae2:charger/ae2:charger/guide
-[0910月2026 02:35:06.737] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 56 advancements
-[0910月2026 02:35:06.970] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:06.970] [Render thread/INFO] [cqc.wave/]: cqc.wave poke text='Compact Quantum Computer' t=549788.250 lastOffset=-0.323
-[0910月2026 02:35:06.994] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:07.022] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:07.039] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:07.054] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:07.060] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:07.069] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:07.080] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:07.115] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:07.129] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:07.163] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:07.178] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:07.215] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:07.236] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:07.260] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:07.281] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:07.305] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:07.318] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:07.332] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:07.359] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:07.385] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:07.402] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:07.420] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:07.444] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:07.475] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:07.500] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:07.515] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:07.524] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[0910月2026 02:35:07.527] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:07.538] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:07.548] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:07.559] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:07.559] [Render thread/INFO] [cqc.wave/]: cqc.wave poke text='Compact Quantum Computer' t=549788.875 lastOffset=-0.401
-[0910月2026 02:35:07.569] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[0910月2026 02:35:07.569] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:07.586] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:07.598] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:07.610] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:07.626] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:07.666] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:07.691] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:07.707] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:07.721] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:07.736] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:07.749] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:07.758] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:07.766] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:07.777] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:07.785] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:07.794] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:07.802] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:07.810] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:07.821] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:07.829] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:07.838] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:07.846] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:07.854] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:07.862] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:07.874] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:07.883] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:07.892] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:07.901] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:07.908] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:07.918] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:07.918] [Render thread/INFO] [cqc.wave/]: cqc.wave poke text='Compact Quantum Computer' t=549789.188 lastOffset=0.708
-[0910月2026 02:35:07.929] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:07.939] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:07.948] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:07.958] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:07.967] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:07.978] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:07.987] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:07.998] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:08.008] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:08.018] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:08.031] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:08.044] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:08.055] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:08.066] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:08.078] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:08.088] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:08.103] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:08.115] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:08.128] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:08.138] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:08.151] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:08.181] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:08.193] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:08.208] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:08.232] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:08.245] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:08.255] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:08.266] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:08.282] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:08.295] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:08.295] [Render thread/INFO] [cqc.wave/]: cqc.wave poke text='Compact Quantum Computer' t=549789.563 lastOffset=0.792
-[0910月2026 02:35:08.303] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:08.312] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:08.323] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:08.331] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:08.344] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:08.356] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:08.365] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:08.377] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:08.386] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:08.396] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:08.405] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:08.413] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:08.423] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:08.431] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:08.440] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:08.448] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:08.456] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:08.464] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:08.476] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:08.484] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:08.492] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:08.500] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:08.501] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[0910月2026 02:35:08.503] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[0910月2026 02:35:08.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/ae2:spatial_storage
-[0910月2026 02:35:08.508] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:08.519] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:08.526] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:08.536] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:08.543] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:08.552] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:08.560] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:08.622] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:08.622] [Render thread/INFO] [cqc.wave/]: cqc.wave poke text='Compact Quantum Computer' t=549789.875 lastOffset=-0.282
-[0910月2026 02:35:08.635] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:08.644] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:08.653] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:08.661] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:08.676] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:08.684] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:08.693] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:08.700] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:08.708] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:08.719] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:08.729] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:08.738] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:08.748] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:08.756] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:08.768] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:08.782] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:08.791] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:08.804] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:08.831] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:08.840] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:08.859] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:08.866] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:08.880] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:08.886] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:08.898] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:08.905] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:08.913] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:08.928] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:08.934] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:08.952] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:08.953] [Render thread/INFO] [cqc.wave/]: cqc.wave poke text='Compact Quantum Computer' t=549790.250 lastOffset=-0.988
-[0910月2026 02:35:08.962] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:08.976] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:08.986] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:08.993] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:09.001] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:09.011] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:09.026] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:09.033] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:09.040] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:09.049] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:09.057] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:09.069] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:09.076] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:09.084] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:09.093] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:09.103] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:09.111] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:09.275] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:09.280] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:09.288] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:09.296] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:09.305] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:09.314] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:09.326] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:09.330] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:09.339] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:09.347] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:09.355] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:09.364] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:09.376] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:09.376] [Render thread/INFO] [cqc.wave/]: cqc.wave poke text='Compact Quantum Computer' t=549790.688 lastOffset=0.261
-[0910月2026 02:35:09.380] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:09.390] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:09.399] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:09.407] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:09.418] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:09.423] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:09.432] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:09.439] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:09.449] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:09.456] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:09.469] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:09.474] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:09.483] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:09.490] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:09.500] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:09.510] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:18.220] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:18.225] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:18.232] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:18.241] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:18.250] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:18.259] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:18.272] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:18.278] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:18.286] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:18.295] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:18.303] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:18.311] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:18.322] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:18.328] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:18.328] [Render thread/INFO] [cqc.wave/]: cqc.wave poke text='Compact Quantum Computer' t=549799.563 lastOffset=0.212
-[0910月2026 02:35:18.337] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:18.345] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:18.353] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:18.361] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:18.373] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:18.378] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:18.387] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:18.395] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:18.403] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:18.412] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:18.422] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:18.429] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:18.437] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:18.445] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:18.453] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:18.462] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:18.472] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:18.478] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:18.486] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:18.494] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:18.504] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:18.512] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:18.526] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:18.528] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:18.538] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:18.546] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:18.554] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:18.562] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:18.572] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:18.579] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:18.579] [Render thread/INFO] [cqc.wave/]: cqc.wave poke text='Compact Quantum Computer' t=549799.875 lastOffset=-0.834
-[0910月2026 02:35:18.588] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:18.596] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:18.605] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:18.615] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:18.620] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:18.630] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:18.638] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:18.646] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:18.654] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:18.664] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:18.671] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:18.679] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:18.687] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:18.696] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:18.705] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:18.715] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:18.722] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:18.730] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:18.739] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:18.748] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:18.756] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:19.272] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:19.279] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:19.287] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:19.296] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:19.304] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:19.312] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:19.323] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:19.329] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:19.337] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:19.337] [Render thread/INFO] [cqc.wave/]: cqc.wave poke text='Compact Quantum Computer' t=549800.625 lastOffset=0.663
-[0910月2026 02:35:19.346] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:19.356] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:19.366] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:19.373] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:19.381] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:19.389] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:19.397] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:19.407] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:19.417] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:19.424] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:19.433] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:19.442] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:19.449] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:19.458] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:19.469] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:19.474] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:19.484] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:19.492] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:19.499] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:19.509] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:19.519] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:19.525] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:19.535] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:19.543] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:19.551] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:19.560] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:19.570] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:19.577] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:19.585] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:19.594] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:19.594] [Render thread/INFO] [cqc.wave/]: cqc.wave poke text='Compact Quantum Computer' t=549800.875 lastOffset=0.993
-[0910月2026 02:35:19.602] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:19.611] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:19.621] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:19.626] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:19.636] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:19.644] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:19.653] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:19.661] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:21.884] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:21.892] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:21.900] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:21.909] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:21.919] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:21.925] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:21.933] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:21.942] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:21.950] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:21.959] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:21.969] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:21.975] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:21.984] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:21.992] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.000] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.007] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.019] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.025] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.034] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.043] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.051] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.059] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.059] [Render thread/INFO] [cqc.wave/]: cqc.wave poke text='Compact Quantum Computer' t=549803.375 lastOffset=-0.958
-[0910月2026 02:35:22.071] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.076] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.085] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.094] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.101] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.110] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.120] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.128] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.136] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.145] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.154] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.162] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.172] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.179] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.188] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.196] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.204] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.213] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.223] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.230] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.238] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.247] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.255] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.265] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.272] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.279] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.289] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.297] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.305] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.316] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.316] [Render thread/INFO] [cqc.wave/]: cqc.wave poke text='Compact Quantum Computer' t=549803.563 lastOffset=-0.532
-[0910月2026 02:35:22.323] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.331] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.339] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.349] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.357] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.366] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.373] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.381] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.390] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.399] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.406] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.417] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.423] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.432] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.440] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.449] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.458] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.468] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.475] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.484] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.492] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.500] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.508] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.519] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.525] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.534] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.543] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.551] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.560] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.570] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.570] [Render thread/INFO] [cqc.wave/]: cqc.wave poke text='Compact Quantum Computer' t=549803.875 lastOffset=0.596
-[0910月2026 02:35:22.576] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.584] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.593] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.602] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.610] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.620] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.626] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.635] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.644] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.652] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.661] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.670] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.676] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.686] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.694] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.703] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.711] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.722] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.728] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.737] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.745] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.754] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.761] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.772] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.778] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.786] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.795] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.803] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.811] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.821] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.821] [Render thread/INFO] [cqc.wave/]: cqc.wave poke text='Compact Quantum Computer' t=549804.063 lastOffset=0.978
-[0910月2026 02:35:22.828] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.836] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.845] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.852] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.861] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.871] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.879] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.887] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.895] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.903] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.912] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.921] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.928] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.937] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.946] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.955] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.962] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.972] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.981] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.989] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:22.997] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.006] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.015] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.022] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.031] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.040] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.048] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.058] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.067] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.074] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.074] [Render thread/INFO] [cqc.wave/]: cqc.wave poke text='Compact Quantum Computer' t=549804.375 lastOffset=0.550
-[0910月2026 02:35:23.083] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.090] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.100] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.108] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.118] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.124] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.133] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.141] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.150] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.158] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.168] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.175] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.182] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.192] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.200] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.208] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.219] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.225] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.234] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.242] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.251] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.259] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.270] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.276] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.284] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.293] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.301] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.310] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.320] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.325] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.325] [Render thread/INFO] [cqc.wave/]: cqc.wave poke text='Compact Quantum Computer' t=549804.563 lastOffset=-0.137
-[0910月2026 02:35:23.334] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.342] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.351] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.359] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.370] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.376] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.384] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.393] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.401] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.409] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.420] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.427] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.435] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.443] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.453] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.461] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.472] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.478] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.486] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.494] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.503] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.511] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.521] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.528] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.536] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.544] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.554] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.562] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.573] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.579] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.579] [Render thread/INFO] [cqc.wave/]: cqc.wave poke text='Compact Quantum Computer' t=549804.875 lastOffset=-0.973
-[0910月2026 02:35:23.588] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.596] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.605] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.616] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.622] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.631] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.639] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.647] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.655] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.665] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.673] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.681] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.689] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.698] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.707] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.717] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.723] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.731] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.740] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.749] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.756] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.768] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.775] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.783] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.792] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.800] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.809] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.818] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.824] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.834] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.834] [Render thread/INFO] [cqc.wave/]: cqc.wave poke text='Compact Quantum Computer' t=549805.125 lastOffset=-0.748
-[0910月2026 02:35:23.842] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.851] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.859] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.870] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.876] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.885] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.893] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.902] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.910] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.920] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.926] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.935] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.943] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.952] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.959] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.970] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.976] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.985] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:23.993] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:24.002] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:24.010] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:24.020] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:24.026] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:24.035] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:24.043] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:24.051] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:24.060] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:24.070] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:24.076] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:24.085] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:24.086] [Render thread/INFO] [cqc.wave/]: cqc.wave poke text='Compact Quantum Computer' t=549805.375 lastOffset=0.115
-[0910月2026 02:35:24.094] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:24.102] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:24.110] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:24.121] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:24.126] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:24.135] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:24.144] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:24.153] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:24.161] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:24.172] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:24.178] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:24.186] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:24.196] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:24.204] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:24.212] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:24.222] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:24.229] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:24.237] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:24.246] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:24.255] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:24.263] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:24.274] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:24.280] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:24.288] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:24.296] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:24.305] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:24.313] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:24.322] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:24.330] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:24.338] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:24.339] [Render thread/INFO] [cqc.wave/]: cqc.wave poke text='Compact Quantum Computer' t=549805.625 lastOffset=0.880
-[0910月2026 02:35:24.347] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:24.356] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:24.365] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:24.372] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:24.381] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:24.389] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:24.398] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:24.406] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:24.416] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:24.423] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:24.431] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:24.440] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:35:46.999] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 58 advancements
-[0910月2026 02:36:05.000] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 60 advancements
-[0910月2026 02:36:11.768] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:36:11.775] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:36:11.784] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:36:11.794] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:36:11.802] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:36:11.811] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:36:13.669] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:36:13.676] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:36:13.684] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:36:13.693] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:36:13.702] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:36:13.709] [Render thread/INFO] [cqc.wave/]: cqc.wave intercepted via FCS -> 'Compact Quantum Computer'
-[0910月2026 02:36:18.426] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Crafting Maestro]
-[0910月2026 02:36:18.434] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Crafting Maestro]
-[0910月2026 02:36:18.449] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 61 advancements
+[1210月2026 00:20:38.268] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.sound.SoundEngineLoadEvent to a broken mod state
+[1210月2026 00:20:38.553] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.RegisterColorHandlersEvent$Block to a broken mod state
+[1210月2026 00:20:38.558] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.RegisterColorHandlersEvent$Item to a broken mod state
+[1210月2026 00:20:38.686] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.RenderLevelStageEvent$RegisterStageEvent to a broken mod state
+[1210月2026 00:20:38.750] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.RegisterParticleProvidersEvent to a broken mod state
+[1210月2026 00:20:38.799] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.RegisterClientReloadListenersEvent to a broken mod state
+[1210月2026 00:20:38.799] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$RegisterLayerDefinitions to a broken mod state
+[1210月2026 00:20:38.799] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$RegisterRenderers to a broken mod state
+[1210月2026 00:20:38.800] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.RegisterTextureAtlasSpriteLoadersEvent to a broken mod state
+[1210月2026 00:20:38.801] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.RegisterClientTooltipComponentFactoriesEvent to a broken mod state
+[1210月2026 00:20:38.801] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.RegisterEntitySpectatorShadersEvent to a broken mod state
+[1210月2026 00:20:38.801] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.RegisterKeyMappingsEvent to a broken mod state
+[1210月2026 00:20:38.803] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.RegisterRecipeBookCategoriesEvent to a broken mod state
+[1210月2026 00:20:38.806] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.RegisterGuiOverlaysEvent to a broken mod state
+[1210月2026 00:20:38.812] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.RegisterDimensionSpecialEffectsEvent to a broken mod state
+[1210月2026 00:20:38.813] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.RegisterNamedRenderTypesEvent to a broken mod state
+[1210月2026 00:20:38.814] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.RegisterColorHandlersEvent$ColorResolvers to a broken mod state
+[1210月2026 00:20:38.815] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.RegisterItemDecorationsEvent to a broken mod state
+[1210月2026 00:20:38.823] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.RegisterPresetEditorsEvent to a broken mod state
+[1210月2026 00:20:38.914] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla
+[1210月2026 00:20:38.962] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.ModelEvent$RegisterGeometryLoaders to a broken mod state
+[1210月2026 00:20:39.080] [Worker-Main-9/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.0.06.hex, loading
+[1210月2026 00:20:39.749] [Worker-Main-4/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.ModelEvent$RegisterAdditional to a broken mod state
+[1210月2026 00:20:40.243] [Worker-Main-4/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.ModelEvent$ModifyBakingResult to a broken mod state
+[1210月2026 00:20:40.311] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[1210月2026 00:20:40.312] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[1210月2026 00:20:40.348] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on スピーカー (Realtek(R) Audio)
+[1210月2026 00:20:40.350] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[1210月2026 00:20:40.350] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.sound.SoundEngineLoadEvent to a broken mod state
+[1210月2026 00:20:40.433] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[1210月2026 00:20:40.438] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.TextureStitchEvent$Post to a broken mod state
+[1210月2026 00:20:40.439] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[1210月2026 00:20:40.439] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.TextureStitchEvent$Post to a broken mod state
+[1210月2026 00:20:40.439] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[1210月2026 00:20:40.439] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.TextureStitchEvent$Post to a broken mod state
+[1210月2026 00:20:40.439] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[1210月2026 00:20:40.440] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.TextureStitchEvent$Post to a broken mod state
+[1210月2026 00:20:40.440] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[1210月2026 00:20:40.441] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.TextureStitchEvent$Post to a broken mod state
+[1210月2026 00:20:40.441] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[1210月2026 00:20:40.442] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.TextureStitchEvent$Post to a broken mod state
+[1210月2026 00:20:40.442] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[1210月2026 00:20:40.442] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.TextureStitchEvent$Post to a broken mod state
+[1210月2026 00:20:40.443] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[1210月2026 00:20:40.443] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.TextureStitchEvent$Post to a broken mod state
+[1210月2026 00:20:40.443] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[1210月2026 00:20:40.443] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.TextureStitchEvent$Post to a broken mod state
+[1210月2026 00:20:40.443] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.ModelEvent$BakingCompleted to a broken mod state
+[1210月2026 00:20:40.486] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[1210月2026 00:20:40.486] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[1210月2026 00:20:40.524] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[1210月2026 00:20:40.525] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[1210月2026 00:20:40.526] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[1210月2026 00:20:40.526] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[1210月2026 00:20:40.527] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[1210月2026 00:20:40.529] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[1210月2026 00:20:40.531] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[1210月2026 00:20:40.533] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[1210月2026 00:20:40.533] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[1210月2026 00:20:40.533] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[1210月2026 00:20:40.534] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[1210月2026 00:20:40.534] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[1210月2026 00:20:40.535] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[1210月2026 00:20:40.536] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[1210月2026 00:20:40.536] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[1210月2026 00:20:40.537] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[1210月2026 00:20:40.539] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[1210月2026 00:20:40.543] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[1210月2026 00:20:40.543] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$CreateSkullModels to a broken mod state
+[1210月2026 00:20:40.544] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.EntityRenderersEvent$AddLayers to a broken mod state
+[1210月2026 00:20:40.563] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[1210月2026 00:20:40.586] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.RegisterShadersEvent to a broken mod state
+[1210月2026 00:20:40.596] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[1210月2026 00:20:40.596] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.TextureStitchEvent$Post to a broken mod state
+[1210月2026 00:20:40.596] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[1210月2026 00:20:40.596] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.TextureStitchEvent$Post to a broken mod state
+[1210月2026 00:20:40.596] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[1210月2026 00:20:40.596] [Render thread/ERROR] [net.minecraftforge.fml.ModLoader/]: Cowardly refusing to send event net.minecraftforge.client.event.TextureStitchEvent$Post to a broken mod state
+[1210月2026 00:20:40.721] [Render thread/FATAL] [net.minecraftforge.client.loading.ClientModLoader/]: Crash report saved to .\crash-reports\crash-2026-10-12_00.20.40-fml.txt
+[1210月2026 00:20:46.236] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
