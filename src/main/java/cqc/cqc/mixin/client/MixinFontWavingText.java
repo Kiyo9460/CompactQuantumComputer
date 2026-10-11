@@ -104,11 +104,6 @@ public abstract class MixinFontWavingText {
         } else if (!onceLogged) {
             onceLogged = true;
             LOGGER.info("cqc.wave: first interception via {} '{}' (set -Dcqc.debugWave=true for every frame)", via, this.cqc$shorten(text));
-            net.minecraft.client.Minecraft mc = net.minecraft.client.Minecraft.getInstance();
-            if (mc.player != null) {
-                mc.player.displayClientMessage(net.minecraft.network.chat.Component.literal("cqc.wave active: '"
-                        + this.cqc$shorten(text) + "'"), false);
-            }
         }
         this.cqc$handleWavingText(text.replace(String.valueOf(WaveName.MARKER), ""), x, y, color, dropShadow, matrix, bufferSource, displayMode, packedLight, backgroundColor);
         return true;
