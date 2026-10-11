@@ -35,7 +35,7 @@ public final class DevStartupCheck {
             checkMixinsApply();
             checkRegistries();
             checkStats();
-            LOGGER.info("cqc: dev startup check PASSED");
+            LOGGER.debug("cqc: dev startup check PASSED");
         } catch (Throwable t) {
             LOGGER.error("cqc: dev startup check FAILED", t);
             throw new RuntimeException("cqc dev startup check failed", t);
@@ -49,7 +49,7 @@ public final class DevStartupCheck {
         Class.forName(Grid.class.getName());
         Class.forName(AdvCraftingCPUCalculator.class.getName());
         Class.forName(IGridNode.class.getName());
-        LOGGER.info("cqc: mixin target classes loaded with transformations applied");
+        LOGGER.debug("cqc: mixin target classes loaded with transformations applied");
     }
 
     private static void checkRegistries() {
@@ -71,7 +71,7 @@ public final class DevStartupCheck {
         long coProcessors = (long) CompactQuantumComputerBlockEntity.MAX_ACCELERATOR_THREADS
                 * CompactQuantumComputerBlockEntity.MAX_ACCELERATION_MULTIPLIER;
 
-        LOGGER.info("cqc: dev stats maxStorageBytes={} threads={} accelMultiplier={} coProcessors={}",
+        LOGGER.debug("cqc: dev stats maxStorageBytes={} threads={} accelMultiplier={} coProcessors={}",
                 CompactQuantumComputerBlockEntity.MAX_STORAGE_BYTES,
                 CompactQuantumComputerBlockEntity.MAX_ACCELERATOR_THREADS,
                 CompactQuantumComputerBlockEntity.MAX_ACCELERATION_MULTIPLIER,

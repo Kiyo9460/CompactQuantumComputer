@@ -88,7 +88,7 @@ public class Cqc {
                     COMPACT_QUANTUM_COMPUTER_BE.get(),
                     null,
                     null);
-            LOGGER.info("cqc: compact quantum computer ready");
+            LOGGER.debug("cqc: compact quantum computer ready");
         });
     }
 }

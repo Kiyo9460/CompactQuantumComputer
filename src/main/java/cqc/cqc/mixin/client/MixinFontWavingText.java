@@ -32,6 +32,8 @@ public abstract class MixinFontWavingText {
 
     @Unique
     private static final Logger LOGGER = LoggerFactory.getLogger("cqc.wave");
+    @Unique
+    private static final String MARKER_STR = String.valueOf(WaveName.MARKER);
 
     @Unique
     private static final float WAVE_AMPLITUDE = 1.0f;
@@ -50,7 +52,7 @@ public abstract class MixinFontWavingText {
     @Unique
     private static final int MAX_LIGHT = 15728880;
     @Unique
-    private static boolean detailed = Boolean.parseBoolean(System.getProperty("cqc.debugWave", "false"));
+    private static final boolean detailed = Boolean.parseBoolean(System.getProperty("cqc.debugWave", "false"));
     @Unique
     private static boolean onceLogged;
 
@@ -100,12 +102,14 @@ public abstract class MixinFontWavingText {
             return false;
         }
         if (detailed) {
-            LOGGER.info("cqc.wave intercepted via {} -> '{}'", via, this.cqc$shorten(text));
+            LOGGER.debug("cqc.wave intercepted via {} -> '{}'", via, this.cqc$shorten(text));
         } else if (!onceLogged) {
             onceLogged = true;
-            LOGGER.info("cqc.wave: first interception via {} '{}' (set -Dcqc.debugWave=true for every frame)", via, this.cqc$shorten(text));
+            LOGGER.debug("cqc.wave: first interception via {} '{}' (set -Dcqc.debugWave=true for every frame)", via, this.cqc$shorten(text));
         }
-        this.cqc$handleWavingText(text.replace(String.valueOf(WaveName.MARKER), ""), x, y, color, dropShadow, matrix, bufferSource, displayMode, packedLight, backgroundColor);
+        int m = text.indexOf(WaveName.MARKER);
+        String clean = m >= 0 ? text.substring(0, m) + text.substring(m + 1) : text;
+        this.cqc$handleWavingText(clean, x, y, color, dropShadow, matrix, bufferSource, displayMode, packedLight, backgroundColor);
         return true;
     }
 
@@ -176,14 +180,14 @@ public abstract class MixinFontWavingText {
             i += Character.charCount(codePoint);
         }
         if (detailed && (debugCallCount++ % 30 == 0)) {
-            LOGGER.info("cqc.wave poke text='{}' t={} lastOffset={}", text, String.format(java.util.Locale.ROOT, "%.3f", timeSec),
+            LOGGER.debug("cqc.wave poke text='{}' t={} lastOffset={}", text, String.format(java.util.Locale.ROOT, "%.3f", timeSec),
                     String.format(java.util.Locale.ROOT, "%.3f", (Math.sin(timeSec * waveSpeed + (charIndex - 1) * 0.2f) * waveAmplitude)));
         }
     }
 
     @Unique
     private String cqc$sequenceToString(FormattedCharSequence sequence) {
-        StringBuilder sb = new StringBuilder();
+        StringBuilder sb = new StringBuilder(32);
         sequence.accept((index, style, codePoint) -> {
             sb.appendCodePoint(codePoint);
             return true;
@@ -193,7 +197,8 @@ public abstract class MixinFontWavingText {
 
     @Unique
     private String cqc$shorten(String text) {
-        String cleaned = text.indexOf(WaveName.MARKER) >= 0 ? text.replace(String.valueOf(WaveName.MARKER), "") : text;
+        int idx = text.indexOf(WaveName.MARKER);
+        String cleaned = idx >= 0 ? text.substring(0, idx) + text.substring(idx + 1) : text;
         return cleaned.length() > 64 ? cleaned.substring(0, 64) : cleaned;
     }
 }

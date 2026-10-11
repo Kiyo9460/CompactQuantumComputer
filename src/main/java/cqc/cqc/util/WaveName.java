@@ -28,9 +28,10 @@ public final class WaveName {
 
     public static int waveColor(long time, int index, double speed, int start, int end) {
         double wave = (Math.sin((time / speed) + index) + 1.0) / 2.0;
-        int r = (int) (((start >> 16) & 0xFF) * (1 - wave) + ((end >> 16) & 0xFF) * wave);
-        int g = (int) (((start >> 8) & 0xFF) * (1 - wave) + ((end >> 8) & 0xFF) * wave);
-        int b = (int) ((start & 0xFF) * (1 - wave) + ((end & 0xFF) & 0xFF) * wave);
+        double invWave = 1.0 - wave;
+        int r = (int) (((start >> 16) & 0xFF) * invWave + ((end >> 16) & 0xFF) * wave);
+        int g = (int) (((start >> 8) & 0xFF) * invWave + ((end >> 8) & 0xFF) * wave);
+        int b = (int) ((start & 0xFF) * invWave + (end & 0xFF) * wave);
         return (0xFF << 24) | (r << 16) | (g << 8) | b;
     }
 
